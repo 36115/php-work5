@@ -10,13 +10,13 @@
 
     $i = 11;
     $num = $i - 1;
-
+    while ($i <= 40) {
+        echo "เลขที่ $i<br>";
+        $i++;
+    }
+    
     if ($i > 1) {
         $j = 1;
-        while ($i <= 40) {
-            echo "เลขที่ $i<br>";
-            $i++;
-        }
         while ($j <= $num) {
             echo "เลขที่ $j<br>";
             $j++;
